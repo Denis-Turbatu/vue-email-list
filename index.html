@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-if="res.length == 10">
             <li v-for="curEmail in res">{{ curEmail }}</li>
         </ul>
     </div>
